@@ -7,7 +7,7 @@
     <div class="flex items-center justify-center">
       <img
         alt="ineedmore.domains logo"
-        src="../assets/logos/vector/default.svg"
+        src="/assets/logos/vector/default.svg"
         class="w-screen"
       />
     </div>
