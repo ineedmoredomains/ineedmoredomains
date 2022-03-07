@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './font/stylesheet.css';
+
+* {
+    font-family:'vremenagroteskbook'
+}
+
+body {
+    background-image: linear-gradient(115deg, #EB4C00 0%, #F2A900 75.25%);background-size: 100%;background-repeat: no-repeat;
+}
+
+.st0{fill:#404041;}
+.st1{fill:#FFFFFF;}
+.st2{fill:#F38020;}
+.st3{fill:#FAAE40;}

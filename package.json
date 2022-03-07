@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
+    "extract-domain": "^2.4.1",
+    "party-js": "^2.1.2",
     "postcss": "^8.4.7",
     "sass": "^1.49.9",
     "tailwindcss": "^3.0.23",

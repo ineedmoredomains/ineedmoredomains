@@ -2,7 +2,7 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import { createRouter, createWebHistory } from 'vue-router';
 import routes from '~pages';
-import './styles.scss';
+import './assets/style.scss';
 
 const router = createRouter({
   history: createWebHistory(),
