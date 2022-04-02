@@ -11,4 +11,7 @@ export default defineConfig({
       routeStyle: 'nuxt',
     }),
   ],
+  optimizeDeps: {
+    include: ['psl'],
+  },
 });
