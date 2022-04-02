@@ -37,6 +37,7 @@
 <script lang="ts">
   import extractDomain from 'extract-domain';
   import party from 'party-js';
+  import 'psl';
 
   export default {
     name: 'Search',

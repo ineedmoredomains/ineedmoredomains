@@ -125,6 +125,11 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
+"@types/extract-domain@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@types/extract-domain/-/extract-domain-2.3.1.tgz#106cddf94ec6b5e8cfa1ca4bbb09c404f3e3d806"
+  integrity sha512-M6/YwjwRh/Q6wm9l5ieQCO2pG/yrpmV77FlJfeLQDh2SL2clc9Ye1wGUInThQ3gvgiVZHcrBCz3bVun3Kps84w==
+
 "@types/http-proxy@^1.17.8":
   version "1.17.8"
   resolved "https://registry.yarnpkg.com/@types/http-proxy/-/http-proxy-1.17.8.tgz#968c66903e7e42b483608030ee85800f22d03f55"
