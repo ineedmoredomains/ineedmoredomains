@@ -35,15 +35,13 @@
 </template>
 
 <script lang="ts">
-  import extractDomain from 'extract-domain';
   import party from 'party-js';
-  import psl from 'psl';
-  
+
   export default {
     name: 'Search',
     methods: {
       showDomain: async (target: { value: string }) => {
-        const dmn = extractDomain(target.value + '.', { tld: true });
+        const dmn = new URL(`http://${target.value}`).hostname;
         console.log(dmn);
         if (dmn) {
           fetch(`https://dns.cloudflare.com/dns-query?name=${dmn}&type=ns`, {

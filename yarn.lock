@@ -125,11 +125,6 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
-"@types/extract-domain@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@types/extract-domain/-/extract-domain-2.3.1.tgz#106cddf94ec6b5e8cfa1ca4bbb09c404f3e3d806"
-  integrity sha512-M6/YwjwRh/Q6wm9l5ieQCO2pG/yrpmV77FlJfeLQDh2SL2clc9Ye1wGUInThQ3gvgiVZHcrBCz3bVun3Kps84w==
-
 "@types/http-proxy@^1.17.8":
   version "1.17.8"
   resolved "https://registry.yarnpkg.com/@types/http-proxy/-/http-proxy-1.17.8.tgz#968c66903e7e42b483608030ee85800f22d03f55"
@@ -1279,13 +1274,6 @@ express@^4.17.1:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
-extract-domain@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/extract-domain/-/extract-domain-2.4.1.tgz#f0520fdeebd7f12b145205b7dc6eb0b174a8e473"
-  integrity sha512-dX+kCRLakP2r5DrcVzC14rlRHgFfg4TzYreoe6ht5SirCiYVKNjOyZUSKrLa9If4XULWZ/5dChOyzKs5QwLbzA==
-  optionalDependencies:
-    psl "^1.8.0"
-
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
@@ -2313,11 +2301,6 @@ proxy-addr@~2.0.7:
   dependencies:
     forwarded "0.2.0"
     ipaddr.js "1.9.1"
-
-psl@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
-  integrity sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
 
 pug-attrs@^3.0.0:
   version "3.0.0"
