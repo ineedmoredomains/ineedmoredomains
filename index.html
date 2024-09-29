@@ -3,11 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://ineedmore.domains" />
+    <link rel="icon" href="/assets/favicon.svg" />
+    <link rel="stylesheet" href="/assets/styles.css" />
     <title>ineedmore.domains</title>
-    <link rel="icon" href="/profile.png">
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <noscript>
+      <bar class="notice">
+        <p>this site requires javascript, sorry</p>
+      </bar>
+    </noscript>
+    <bar class="header">
+      <a href="/" class="current">
+        <img src="/assets/logo.svg" alt="ineedmore.domains" />
+      </a>
+    </bar>
+    <main>
+      <p>
+        <i>
+          need more domains?
+          <br />
+          like, a lot more domains?
+        </i>
+        <br />
+        <br />
+        well, you're in luck!
+      </p>
+      <form>
+        <input type="text" name="q" placeholder="search for a domain" />
+        <button type="submit">search</button>
+      </form>
+    </main>
+    <script>
+      document.querySelector("form").addEventListener("submit", (event) => {
+        event.preventDefault();
+        window.location.href = `https://dash.cloudflare.com/?to=/:account/domains/register/${
+          document.querySelector("input").value
+        }/registration`;
+      });
+    </script>
   </body>
 </html>
